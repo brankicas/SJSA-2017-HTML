@@ -1,0 +1,41 @@
+body {
+	background-color: grey; 
+}
+
+h1 {
+	font-family: : Ariel, sans-serif
+	 }
+.crven-naslov { color: red;
+	font-size: 40px;
+}
+#sin-naslov {color:blue;
+
+
+}
+.dj-marte {
+width: 500px;
+/*height:500px;*/
+background-color: orange;
+/*overflow: scroll;*/
+
+}
+.link{
+	font-size:40px	
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	display: block;
+	background-color: blue;
+	width: 200px;
+}
+.link:hover {
+background-color: red;
+}
+.crven-naslov:hover { 
+color: green;
+
+}
+table, th, td  {
+	border: 1px solid blue:
+}
