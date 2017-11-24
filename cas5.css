@@ -2,7 +2,9 @@ body {
 	margin:0;
     padding: 0;
 
+
 }
+
 .holder {
 	width: 940px;
 	height: 1600px;
@@ -79,8 +81,8 @@ header{
 
 }
 .slider{
-	width: 940px;
-	height: 410px;
+	/*width: 940px;
+	height: 410px;*/
 	float:left;
 	
 
@@ -91,16 +93,38 @@ header{
 }
 .slider h1 {
 	width: 940px;
-	font-family: Georgia;
 	font-size: 24px;
 	text-align: center;
 	height: 50px;
 	border-bottom: 1px solid #e5e5e5;
 	float: left;
+	font-family: Georgia;
+}
+ul.main-list {
+	width: 940px;
+	height: 435px;
+	margin: 50px 0 0 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+	float: left;
+	border-bottom: 1px solid;
+
 }
 
-.list-header{
+ul.main-list li {
+	width: 300px;
+	height: 435px;
+	margin: 0 20px 0 0;
+/*	padding: 0;*/
+	float: left;
+
+}
+
+header.list-header{
 	height: 40px;
+    width: 300px;
+
 
 }
 .list-header h1{
@@ -108,8 +132,186 @@ header{
 	font-size: 21px;
 	margin:0;
 	padding: 0;
+	color: #11719e;
+	width: 300px;
 
 }
 .list-header span {
+	display: block;
+	color: #666666;
+	font-family: helvetica;
+	font-size: 12px;
+	width: 300px;
 	
+}
+.gorna-senka{
+	width: 299 px;
+	height: 3px;
+	display: block;
+	float: left;
+	background-image: url("img-shadow-down.png");
+
+}
+.img-holder img{
+	float: left;
+	border-radius: 5px;
+	border: 1px solid grey;
+
+}
+.img-holder {
+	height: 205px;
+	margin: 20px 0 0 0;
+	float: left;
+}
+
+}
+.main-list p{
+	color: #3e3e3e;
+	font-family: helvetica;
+	font-size: 13px;
+	line-height: 18px;
+}
+.main-list a {
+	display: block;
+	float: left;
+	width: 160px;
+	height: 30px;
+	background-color: #e8e8e8;
+	border: 1px solid #d8d8d8;
+	border-radius: 5px;
+}
+.link-text {
+	color: #016999;
+	display: block;
+	float: left;
+	font-size: 13px;
+	margin: 7px 0 0 12px;
+	font-family: helvetica;
+}
+.link-arrow {
+	width: 300px;
+	height: 7px;
+	display: block;
+	float: right;
+	background-image: url("link-arrow.png")
+	margin:12px 7px 0 0;
+}
+
+.main-list li:last-child {
+	margin: 0;
+
+}
+.main-list li:nth-child(3) {}
+
+ul.vtora-klasa{
+	width: 940px;
+	height: 350px;
+	float: left;
+	background-color: red;
+	margin: 0;
+	padding: 0;
+}
+
+ul.vtora-klasa li{
+	width: 300px;
+	height: 350px;
+	float: left;
+	background-color: blue;
+	margin: 0 20px 0 0;
+
+
+}
+ul.vtora-klasa li:last-child {
+	margin: 0;
+}
+
+ul.vtora-klasa li h1 {
+	margin: 0;
+	padding:0;
+	font-size: 18px;
+	font-family: georgia;
+	font-weight: 400;
+	color: #444444;
+	background-color: yellow;
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 10px 0;
+}
+ul.vtora-klasa li p {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: helvetica;
+
+}
+ul.social {
+	width: 300px;
+	height: 50px;
+	background-color:orange;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+
+}
+ul.social li {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 12px 0 0;
+
+}
+ul.vtora-klasa li h2 {
+	font-size: 18px;
+	font-family: georgia;
+	color: #444444;
+	border-bottom: 1px dashed #444444;
+	padding: 0 0 10px 0;
+	margin: 45px 0 0 0;
+}
+ul.vtora-klasa input {
+	width: 280px;
+	height: 33px;
+	border-radius: 5px;
+	border: 1px solid #444444;
+	padding: 0 0 0 10px;
+
+}
+input.kopce {
+	width: 160px !important;
+	height: 30px !important;
+	margin: 11px 0 0 0; 
+	float: left;
+	background-color: #4e85be;
+	display: block;
+	border: 1px solid #004a80;
+	color: #fff;
+	text-align: left;
+
+}
+
+form.kontakt-forma {
+	width: 300px;
+	height: 320px;
+	padding: 10px 0 0 0;
+
+
+}
+
+form.kontakt-forma input {
+	width: 280px;
+	height: 33px;
+	margin: 0 0 10px 0;
+	border: 1px solid #444444;
+
+}
+form.kontakt-forma textarea {
+	width: 270px;
+	height: 135px;
+	border-radius: 5px;
+	padding: 10px;
+	font-family: georgia;
+	font-size: 15px;
+	margin: 0 0 10px 0;
+
+
 }
