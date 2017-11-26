@@ -1,0 +1,159 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+	.holder {
+		width: 950px;
+		height: 1600px;
+		margin: 0 auto;
+		background-color: white;
+	}
+
+	header {
+	width: 950px;
+	height: 100px;
+     background-color:rgb(250,219,57) }
+
+	.header-left {
+	width: 280px;
+	height: 100px;	
+	float:left;
+	background-color: rgb(250,219,57);
+}
+
+.header-left img {
+	margin: 35px 0 0 155px; 
+	height: 50px;
+}
+/*.tini{
+	font-size: 12px;
+	font-family: geordia;
+}
+*/
+
+.header-right {
+	width: 500px;
+	height: 100px;
+	float: right;
+	background-color: rgb(250,219,57);
+}
+
+.header-right ul{
+	width: 500px;
+	height: 80px;
+	float: right;
+	margin: 37px 0px 0px 0px;
+	padding: 0;
+	list-style: none;
+	/*background-color: orange;*/
+}
+
+	.header-right ul li {
+	height: 50px;
+	float: left;
+	padding: 0 5px;
+	/*border-left: 1px dotted #666666;*/
+}
+
+	.header-right ul li h1 {
+	font-family: Georgia;
+	font-size: 14px;
+	color: black;
+	font-family: tahoma ,sans-serif; 
+
+	}
+
+	.header-right ul li a {
+	text-decoration: none;
+	margin: 0px 0px 30px 70px;
+	height: 40px;
+	display: block;}
+
+	.div3 {
+		/*margin: 10px 10px 10px 10px;*/
+		height: 400px;
+		padding-top: 70px;
+		background-color: rgb(250,219,57);
+	}
+
+	.tekst-slika {
+		list-style: none;
+		background-color: purple;
+	}
+
+	.tekst {
+		margin: 40px 0px 0 130px;
+		font-size: 10px;
+		/*background-color: yellow;*/
+		float: left;
+
+	}
+
+
+	.tekst h1 {
+		color: black;
+		font-family: ariel, sans-serif;  
+
+	}
+
+	.tekst h4 {
+		color: rgb(83,74,28);
+		font-family: tahoma ,sans-serif;  	;
+
+	}
+
+	.tekst p {
+		color: rgb(83,74,28);
+		font-family: tahoma ,sans-serif; 
+	}
+
+	
+	.slika {
+		float: right;
+		height: 10px;
+    }
+
+	.slika img {
+		height: 320px;
+		margin: 0 180px 0 0;
+	}
+
+	.div4 {
+		background-color: rgb(250,219,57);
+
+	}
+
+	.div4 img {
+		margin: 0px 0px 0px 380px;
+		background-color: rgb(250,219,57);
+
+	}
+
+
+	.div5{
+		text-align: center;
+		font-family: tahoma ,sans-serif; 
+		font-size: 12px;
+		margin: 75px;
+	}
+
+	.div6 ul li {
+	float: left;
+	font-family: tahoma ,sans-serif; 
+	font-size: 7px;
+	list-style: none;
+	margin: 0px 0px 0px 140px;
+}
+/*ul.div6 li:last-child {
+	margin: 10px;
+
+}
+*/
+
+.div7 ul li {
+	float: left;
+	font-family: tahoma ,sans-serif; 
+	font-size: 7px;
+	list-style: none;
+	margin: 20px 0px 0px 140px;
